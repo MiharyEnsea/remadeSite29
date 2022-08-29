@@ -1,0 +1,825 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Produit-remade</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.0/font/bootstrap-icons.css">
+	<link rel="stylesheet" href="./css/style produit.css">
+</head>
+<body>
+	
+		<nav class="navbar navbar-expand-lg navbar-dark sticky-top" style="background-color: #000e2a;">
+		  <div class="container-fluid">
+		    <a class="navbar-brand" href="index.html"><img src="./Images/logo.JPG"></a>
+		    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		      <span class="navbar-toggler-icon"></span>
+		    </button>
+		    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+		      <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+		      	 <li class="nav-item dropdown">
+		          <a class="nav-link disabled d-none d-lg-block dropdown-toggle" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+		            Votre projet
+		          </a>
+		          <a class="nav-link d-block d-lg-none dropdown-toggle" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+		            Votre projet
+		          </a>
+		          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+		            <li><a class="dropdown-item" href="projet.html">La création de votre vélo</a></li>
+		            <li><a class="dropdown-item" href="#">Configurateur</a></li>
+		            <li><a class="dropdown-item" href="#">Contribuer</a></li>	            
+		          </ul>
+		        </li>		        
+		        <li class="nav-item dropdown">
+		          <a class="nav-link disabled d-none d-lg-block dropdown-toggle" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+		            Nos produits
+		          </a>
+		          <a class="nav-link d-block d-lg-none dropdown-toggle" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+		            Nos produits
+		          </a>
+		          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+		          	<li><a class="dropdown-item" href="produit.html#IdentiteDeNosRea">Identité de nos créations</a></li>
+		            <li><a class="dropdown-item" href="produit.html#galerie">Galerie photo</a></li>
+		            <li><a class="dropdown-item" href="produit.html#composantsUtilises">Composants utilisés</a></li>
+		          </ul>
+		        </li>
+		       	<li class="nav-item dropdown">
+		          <a class="nav-link disabled d-none d-lg-block dropdown-toggle" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+		            A propos
+		          </a>
+		          <a class="nav-link d-block d-lg-none dropdown-toggle" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+		            A propos
+		          </a>
+		          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+		            <li><a class="dropdown-item" href="Vision.html">Qui sommes-nous?</a></li>
+		            <li><a class="dropdown-item" href="Vision.html#notreOffre">Notre offre de service</a></li>
+		            <!-- <li><hr class="dropdown-divider"></li> -->
+		            <li><a class="dropdown-item" href="Vision.html#notreApproche">Notre approche</a></li>
+		          </ul>
+		        </li>
+		      </ul>
+		      <ul class="navbar-nav sm-icons">
+		      	<li><a class="nav-link" href="#"><i class="bi bi-linkedin"></i></a></li>
+		      	<li><a class="nav-link" href="#"><i class="bi bi-facebook"></i></a></li>
+		      	<li class="nav-item">
+		          <a class="nav-link" href="contact.html">Contactez nous</a>
+		        </li>
+		      </ul>
+		    </div>
+		  </div>
+		</nav>
+	
+	<main id="conteneur" class="container-fluid">
+		<!-- <h1 class="text-center">STYLE, CONFORT, FIABILITE et ACHAT RESPONSABLE</h1> <br><br> -->
+		<!-- <div class="container" id="IdentiteDeNosRea"><h1 class="my-4 py-3">IDENTITE DE NOS REALISATIONS</h1></div>
+		<div class="container">Une bicyclette vintage offrant une assistance électrique ou un V.A.E moderne mais avec un vrai style rétro, à vous de voir...<br><br>
+						Au final une Bicyclette à Assistance Electrique, c'est un style vintage, un confort et une fiabilité, et un impact positif sur l'environnement et l'emploi
+		</div>
+		<div class="row backDegra"> <br><br></div>
+		<div class="row">
+			<div class="col-lg-6 col-12 d-flex align-items-center justify-content-center backRadia">				
+				<div class="text text-start description2 d-none d-lg-block">
+					<h1 class="text-end" id="titre">Style vintage</h1>
+					<div class="container">Les bicyclettes de ville des années 1960 à 1980 sont remarquables par leur élégance et leur cyclabilité. <br><br>
+					Les marques emblématiques françaises fabriquent alors leurs propres cadres en acier, plus élastique et aux finitions plus raffinées que ce permet l'aluminium (sections plus fines, soudures plus discrètes). <br><br>
+					Nous préservons aujourd'hui ce style en conservant le cadre et un maximum de composants d'origine, tels que les freins à étrier par exemple.
+					</div>
+					<div class="d-grid gap-2 d-md-flex justify-content-md-end">						  	
+				  		<a class="btn btn-primary" href="#galerie" role="button">Voir la galerie</a>
+					</div>
+				</div>					
+			</div>
+			<div class="col-lg-6 col-12 px-0"><img src="./Images/Velo vintage 1.png" style="height:100%"></div>
+			<div class="col-lg-6 col-12 d-flex align-items-center justify-content-center backRadia">				
+				<div class="text text-start description d-block d-lg-none">
+					<h1 class="text-end" id="titre">Style vintage</h1>
+					<div class="container-fluid">Les bicyclettes de ville des années 1960 à 1980 sont remarquables par leur élégance et leur cyclabilité. <br><br>
+					Les marques emblématiques françaises fabriquent alors leurs propres cadres en acier, plus élastique et aux finitions plus raffinées que ce permet l'aluminium (sections plus fines, soudures plus discrètes). <br><br>
+					Nous préservons aujourd'hui ce style en conservant le cadre et un maximum de composants d'origine, tels que les freins à étrier par exemple.
+					</div>
+					<div class="d-grid gap-2 d-flex justify-content-end">						  	
+				  		<a class="btn btn-primary" href="#galerie" role="button">Voir la galerie</a>
+					</div>
+
+
+				</div>
+				
+
+			</div> 
+
+		</div>
+
+
+		
+		<div class="row">		
+			<div class="col-lg-6 col-12 px-0"><img src="./Images/Confort et fiabilite 1.png" style="height: 100%;"></div>
+			<div class="col-lg-6 col-12 d-flex align-items-center justify-content-center backRadia">				
+				<div class="text text-start description2">
+					<br class="d-block d-lg-none">
+					<h1 class="text-start" id="titre">Confort et fiabilité</h1>
+					<div class="container">
+						Nous remplaçons certains composant pour que la bicyclette vous offre <br><br>
+					<ul>
+						<li>un grand confort de conduite : passage des vitesses indexé et possible à l'arrêt, pneumatiques adaptés</li><br>
+						<li>une fiabilité appréciable : pas de déraillage, freinage amélioré par les jantes aluminium, adhérence des pneus spécifiques VAE, coupure d'alimentation du moteur au freinage</li><br>
+						<li>une cyclabilité agréable : même moteur coupé, la bicyclette semble légère.</li>
+					</ul>
+					</div>
+					<div class="d-grid gap-2 d-flex justify-content-end">						  	
+				  		<a class="btn btn-primary" href="#composantsUtilises" role="button">En savoir plus</a>				  		
+					</div>
+					<br>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-lg-6 col-12 d-flex align-items-center justify-content-center backRadia">				
+				<div class="text text-start description2 d-none d-lg-block">
+					<h1 class="text-end" id="titre">Emploi et environnement</h1>
+					<div class="container">
+						80% des émissions de CO² générées par un VAE proviennent de sa fabrication. Dans une logique d'économie circulaire, votre bicyclette  <br><br>
+					<ul>
+						<li>génère pour sa fabrication 50% de CO2 de moins qu'un VAE neuf moyen</li>
+						<li>permet de récupérer 10kg sur les 15 kg de la bicyclette d'origine</li>
+						<li>est réalisée localement par un technicien qualifié</li>
+					</ul>
+					</div>
+					<div class="d-grid gap-2 d-md-flex justify-content-md-end">						  	
+				  		<a class="btn btn-primary" href="Vision.html#notreApproche" role="button">En savoir plus</a>
+					</div>
+				</div>					
+			</div>
+			<div class="col-lg-6 col-12 px-0"><img src="./Images/Emploi et environnement 1.png"></div>	
+			<div class="col-lg-6 col-12 d-flex align-items-center justify-content-center backRadia">				
+				<div class="text text-start description d-block d-lg-none">
+					<h1 class="text-end" id="titre">Emploi et environnement</h1>
+					<div class="container">
+						80% des émissions de CO² générées par un VAE proviennent de sa fabrication. Dans une logique d'économie circulaire, votre bicyclette  <br><br>
+					<ul>
+						<li>génère pour sa fabrication 50% de CO2 de moins qu'un VAE neuf moyen</li>
+						<li>permet de récupérer 10kg sur les 15 kg de la bicyclette d'origine</li>
+						<li>est réalisée localement par un technicien qualifié</li>
+					</ul>
+					</div>
+					<div class="d-grid gap-2 d-md-flex justify-content-md-end">						  	
+				  		<a class="btn btn-primary" href="Vision.html#notreApproche" role="button">En savoir plus</a>
+					</div>
+				</div>					
+			</div>		
+		</div> -->
+
+
+
+		<!-- GALERIE -->
+		<div class="container" id="galerie"><h1 class="my-4 py-3">GALERIE</h1></div>
+		<div class="galerie">
+			<div class="itemPortraitGauche"><img src="./Images/galerie/jpeg/portrait 1.jpg" alt=""></div>
+			<div class="itemPortraitDroite"><img src="./Images/galerie/jpeg/portrait 2.jpg" alt=""></div>
+			<div class="itemPortraitGauche"><img src="./Images/galerie/jpeg/portrait 3.jpg" alt=""></div>
+			<div class="itemPortraitDroite"><img src="./Images/galerie/jpeg/portrait 4.jpg" alt=""></div>
+
+			<div class="itemPaysage"><img src="./Images/galerie/jpeg/galerie 1.jpg" alt=""></div>
+			<div class="itemPaysage"><img src="./Images/galerie/jpeg/galerie 2.jpg" alt=""></div>
+
+			<div class="itemPaysage"><img src="./Images/galerie/jpeg/galerie 3.jpg" alt=""></div>
+			<div class="itemPaysage"><img src="./Images/galerie/jpeg/galerie 4.jpg" alt=""></div>
+
+			<div class="itemPaysage"><img src="./Images/galerie/jpeg/galerie 5.jpg" alt=""></div>
+			<div class="itemPaysage"><img src="./Images/galerie/jpeg/galerie 6.jpg" alt=""></div>
+
+			<div class="itemPaysage"><img src="./Images/galerie/jpeg/galerie 7.jpg" alt=""></div>
+			<div class="itemPaysage"><img src="./Images/galerie/jpeg/galerie 8.jpg" alt=""></div>
+			
+			<div class="itemPaysage"><img src="./Images/galerie/jpeg/galerie 9.jpg" alt=""></div>
+			<div class="itemPaysage"><img src="./Images/galerie/jpeg/galerie 10.jpg" alt=""></div>
+			
+			<div class="itemPaysage"><img src="./Images/galerie/jpeg/galerie 11.jpg" alt=""></div>
+			<div class="itemPaysage"><img src="./Images/galerie/jpeg/galerie 12.jpg" alt=""></div>
+			
+			<div class="itemPaysage"><img src="./Images/galerie/jpeg/galerie 13.jpg" alt=""></div>
+			<div class="itemPaysage"><img src="./Images/galerie/jpeg/galerie 14.jpg" alt=""></div>
+			
+			<div class="itemPaysage"><img src="./Images/galerie/jpeg/galerie 15.jpg" alt=""></div>
+			<div class="itemPaysage"><img src="./Images/galerie/jpeg/galerie 16.jpg" alt=""></div>
+			
+			<div class="itemPaysage"><img src="./Images/galerie/jpeg/galerie 17.jpg" alt=""></div>
+			<div class="itemPaysage"><img src="./Images/galerie/jpeg/galerie 18.jpg" alt=""></div>
+			
+			<div class="itemPaysage"><img src="./Images/galerie/jpeg/galerie 19.jpg" alt=""></div>
+			<div class="itemPaysage"><img src="./Images/galerie/jpeg/galerie 20.jpg" alt=""></div>
+			
+			<div class="itemPaysage"><img src="./Images/galerie/jpeg/galerie 21.jpg" alt=""></div>
+			<div class="itemPaysage"><img src="./Images/galerie/jpeg/galerie 22.jpg" alt=""></div>
+			
+
+
+		</div>
+
+
+		<!-- COMPOSANTS UTILISES -->
+
+
+		<div class="backDegra">
+			<div class="container"><h1 id="composantsUtilises" class="my-4 py-3">COMPOSANTS UTILISES</h1></div>
+			<div class="row">
+				<div class="col pt-5 d-none d-lg-block">
+					<a class="d-grid justify-content-end" href="#SELLERIE">Sellerie</a><br>
+					<a class="d-grid justify-content-end" href="#EQUIPE">Equipements</a><br>
+					<a class="d-grid justify-content-end" href="#FREINAGE">Freinage</a><br>
+					<a class="d-grid justify-content-end" href="#MOYEU">Transmission</a><br>
+					<a class="d-grid justify-content-end" href="#PEPE">Pédalier</a><br>
+				</div>
+				<div class="container col-lg-6 col-12">
+					<img src="./Images/Vue d'ensemble 1.jpg">
+				</div>
+				<div class="col pt-5 d-none d-lg-block">
+					<a class="d-grid justify-content-start" href="#CADRE">Cadre & fourche</a><br><br>
+					<a class="d-grid justify-content-start" href="#BATTERIE">Batterie</a><br><br>
+					<a class="d-grid justify-content-start" href="#MOTEUR">Moteur roue avant</a><br><br>
+					<a class="d-grid justify-content-start" href="#ROUES">Roues & pneus</a><br>
+				</div>
+			</div><br><br>
+			<div class="row">
+				<div class="col d-block d-lg-none">
+					<a class="d-grid justify-content-center" href="#SELLERIE">Sellerie</a><br>
+					<a class="d-grid justify-content-center" href="#EQUIPE">Equipements</a><br>
+					<a class="d-grid justify-content-center" href="#FREINAGE">Freinage</a><br>
+					<a class="d-grid justify-content-center" href="#MOYEU">Transmission</a><br>
+					<a class="d-grid justify-content-center" href="#PEPE">Pédalier</a><br>
+				</div>				
+				<div class="col d-block d-lg-none">
+					<a class="d-grid justify-content-center" href="#CADRE">Cadre & fourche</a><br><br>
+					<a class="d-grid justify-content-center" href="#BATTERIE">Batterie</a><br><br>
+					<a class="d-grid justify-content-center" href="#MOTEUR">Moteur roue avant</a><br><br>
+					<a class="d-grid justify-content-center" href="#ROUES">Roues & pneus</a><br>
+				</div>
+			</div><br><br>
+		</div>
+		<!-- moyeu -->	
+		<div id="MOYEU" class="row">
+			 <div class="col-lg-6 col-12 d-flex justify-content-center pt-5">
+			 	<img src="./Images/Moyeu 1.jpg" style="width:unset;">
+			 </div>
+			 <div class="col-lg-6 col-12 d-none d-lg-block">
+			 	<div id="titre" class="row fs-2">Moyeu à vitesses intégrées</div>
+			 	<div id="textMoyeu" class="container description">
+			 	Moyeu à vitesses intégrées de type SHIMANO NEXUS 5 ou 7 vitesses				
+					<ul>						
+						<li>Fiable</li>
+						<li>Confortable</li>
+						<li>Entretien facilité</li>
+						<li>Discret</li>
+					</ul>
+					
+					<div class="d-grid gap-2 d-md-flex justify-content-md-end mt-unset">
+						<div class="mx-auto"><a href="#composantsUtilises"><i class="bi bi-arrow-up"></i></a></div> 						  	
+				  		<a class="btn btn-primary" onclick="moyeuPlus()" role="button">En savoir plus</a>
+				  		
+					</div>					
+				</div>				
+				<!-- <div class="text-center"><a href="#composantsUtilises"><i class="bi bi-arrow-up"></i></a></div> -->
+			 </div>
+			 <div class="col-lg-6 col-12 d-block d-lg-none">
+			 	<div id="titre" class="row fs-2">Moyeu à vitesses intégrées</div>
+			 	<div id="textMoyeu" class="container">					
+					Moyeu à vitesses intégrées de type SHIMANO NEXUS 5 ou 7 vitesses					
+					<ul>						
+						<li>Fiable</li>
+						<li>Confortable</li>
+						<li>Entretien facilité</li>
+						<li>Discret</li>
+					</ul>										
+				</div> <br>
+				<div class="collapse" id="collapseMoyeu">
+					Les vitesses non indexées sur la transmission d'origine créent un risque de déraillage important. Nous remplaçons donc systématiquement la transmission par un moyeu à vitesses intégrées, plus moderne, qui permet :
+					<ul>						
+						<li>de ne jamais dérailler, ne jamais rater un passage de vitesses</li>
+						<li>de passer les vitesses à l'arrêt, par exemple en ville au feu rouge</li>
+						<li>de limiter l'entretien à réaliser par l'utilisateur</li>
+  						<li>d'alléger la ligne du vélo en supprimant les dérailleurs</li>
+					</ul>
+				</div>
+				<div class="d-grid gap-2 d-flex justify-content-md-end mt-unset">						  	
+				  		<a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseMoyeu" role="button" aria-expanded="false" aria-controls="collapseMoyeu">
+    					En savoir plus
+  						</a>
+  						<div class="mx-auto"><a href="#composantsUtilises"><i class="bi bi-arrow-up"></i></a></div>
+					</div>				
+				
+			 </div>
+		</div><br>
+		<div class="row backDegra"> <br><br></div>
+
+		<!-- moteur avant -->
+		<div id="MOTEUR" class="row">			 
+			 <div class="col-lg-6 col-12 d-none d-lg-block">
+			 	<div id="titre" class="row fs-2 justify-content-end">Moteur roue avant</div>
+
+			 	<div id="textMoteur" class="container description">			 	
+				 	<div>
+				 		Moteur dans la roue avant
+				 	</div>					
+					<ul>
+						<li>Léger</li>
+						<li>Suffisant pour vous assister au démarrage ou en côte</li>
+						<li>Silencieux</li>						
+					</ul>					
+					<div class="d-grid gap-2 d-md-flex justify-content-md-end">	
+						<div class="mx-auto"><a href="#composantsUtilises"><i class="bi bi-arrow-up"></i></a></div> 					  	
+				  		<a class="btn btn-primary" onclick="moteurPlus()" role="button">En savoir plus</a> 
+				  		
+					</div>					
+				</div>
+				<!-- <div class="text-center"><a href="#composantsUtilises"><i class="bi bi-arrow-up"></i></a></div> -->
+			 </div>
+			 <div class="col-lg-6 col-12 d-flex justify-content-center pt-5">
+			 	<img src="./Images/Moteur 1.jpg" style="width:unset;">
+			 </div>
+			 <div class="col-lg-6 col-12 d-block d-lg-none">
+			 	<div id="titre" class="row fs-2 justify-content-end">Moteur roue avant</div>
+
+			 	<div id="textMoteur2" class="container">			 	
+				 	<div>
+				 		Moteur dans la roue avant
+				 	</div>					
+					<ul>
+						<li>Léger</li>
+						<li>Suffisant pour vous assister au démarrage ou en côte</li>
+						<li>Silencieux</li>						
+					</ul> 					
+				</div>
+				<br>
+				<div class="collapse" id="collapseMoteur">
+			  		Si le moteur central est préférable sur des VAE sportifs ou de tourisme, le moteur à l'avant convient parfaitement aux courts trajets que l'on réalise généralement sur un vélo électrique de ville. <br><br>
+				 	Notre moteur dans la roue avant à entraînement direct : <br><br>				  	 
+				  	<ul>
+				  		<li>pèse moins de  2,0 kg</li>
+				    	<li>offre 30 Nm de couple, ce qui suffit pour vous aider au démarrage ou dans les côtes dans la plupart des zones urbaines et convient à un utilisateur de moins de 90 kg.</li>
+					    <li>est silencieux car il ne contient pas d'engrenage</li>
+					    <li>est adaptable sur un vélo vintage</li>
+				  	</ul>					  
+				</div>
+
+					<div class="d-grid gap-2 d-flex justify-content-md-end">						  	
+				  		<!-- <a class="btn btn-primary" onclick="moteurPlus2()" role="button">En savoir plus</a> --> 
+			  			<div class="mx-auto"><a href="#composantsUtilises"><i class="bi bi-arrow-up"></i></a></div>
+				  		<a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseMoteur" role="button" aria-expanded="false" aria-controls="collapseMoteur">
+						    En savoir plus
+					  	</a>
+					  	
+					</div>					
+				
+				
+			 </div>
+		</div>
+		<div class="row backDegra"> <br><br></div>
+
+		<!-- Freinage -->
+		<div id="FREINAGE" class="row">
+			 <div class="col-lg-6 col-12 d-flex justify-content-center pt-5">
+			 	<img src="./Images/Freins c 1.jpg">
+			 </div>
+			 <div class="col-lg-6 col-12 d-none d-lg-block">
+			 	<div id="titre" class="row fs-2">Freinage</div>
+			 	<div id="textFreinage" class="container description">
+			 	<ul>
+			 		<li>Système de freinage amélioré</li>
+			 		<li>Style préservé</li>
+			 		<li>Sécurité accrue</li>
+			 	</ul>					
+					<div class="d-grid gap-2 d-md-flex justify-content-md-end">	
+						<div class="mx-auto"><a href="#composantsUtilises"><i class="bi bi-arrow-up"></i></a></div> 					  	
+				  		<a class="btn btn-primary" onclick="freinagePlus()" role="button">En savoir plus</a>
+				  		 
+					</div>					
+				</div>
+				<!-- <div class="text-center"><a href="#composantsUtilises"><i class="bi bi-arrow-up"></i></a></div> -->
+			 </div>
+			 <div class="col-lg-6 col-12 d-block d-lg-none">
+			 	<div id="titre" class="row fs-2">Freinage</div>
+			 	<div id="textFreinage" class="container">
+			 	<ul>
+			 		<li>Système de freinage amélioré</li>
+			 		<li>Style préservé</li>
+			 		<li>Sécurité accrue</li>
+			 	</ul>									
+				</div>
+				<br>
+				<div class="collapse" id="collapseFreinage">
+				  Il y a de nombreux systèmes de freinage selon le frottement (disque, patins, tambour), le système de transmission (câble ou hydraulique) <br>
+				  Nous avons opté pour un frein à patins montés sur l'étrier d'origine tiré par câble pour préserver le style
+				  <ul>
+				    <li>son efficacité est accrue car la jante est en aluminium</li>
+				    <li>l'ensemble des consommables sont changés : câbles, gaines et patins</li>
+				    <li>les leviers sont remplacés par des leviers qui coupent l'alimentation du moteur dès qu'ils sont actionnés, pour plus de sécurité.</li>
+				  </ul>				  			  
+				</div>
+				<br>
+				<div class="d-grid gap-2 d-flex justify-content-md-end">						  	
+			  		<!-- <a class="btn btn-primary" onclick="freinagePlus()" role="button">En savoir plus</a>  -->
+			  		 <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseFreinage" role="button" aria-expanded="false" aria-controls="collapseFreinage">
+    					En savoir plus
+  					</a>
+  					<div class="mx-auto"><a href="#composantsUtilises"><i class="bi bi-arrow-up"></i></a></div>
+				</div>
+				
+			 </div>
+		</div>
+		<div class="row backDegra"> <br><br></div>
+
+		<!-- Batterie -->
+		<div id="BATTERIE" class="row">			 
+			 <div class="col-lg-6 col-12 d-none d-lg-block">
+			 	<div id="titre" class="row fs-2 justify-content-end">Batterie</div>	
+			 	<div id="textBatterie" class="container description">	 						
+					<ul>						
+						<li>Discrète</li>
+						<li>Légère</li>
+						<li>Amovible</li>						
+					</ul>
+					<div class="d-grid gap-2 d-md-flex justify-content-md-end">
+						<div class="mx-auto"><a href="#composantsUtilises"><i class="bi bi-arrow-up"></i></a></div> 						  	
+				  		<a class="btn btn-primary" onclick="batteriePlus()" role="button">En savoir plus</a> 
+				  		
+					</div>					
+				</div>
+				<!-- <div class="text-center"><a href="#composantsUtilises"><i class="bi bi-arrow-up"></i></a></div>	 -->
+			 </div>
+			 <div class="col-lg-6 col-12 d-flex justify-content-center pt-5">
+			 	<img src="./Images/Batterie c 1.jpg" style="width:unset;">
+			 </div>
+			 <div class="col-lg-6 col-12 d-block d-lg-none">
+			 	<div id="titre" class="row fs-2 justify-content-end">Batterie</div>	
+			 	<div id="textBatterie2" class="container">	 						
+					<ul>						
+						<li>Discrète</li>
+						<li>Légère</li>
+						<li>Amovible</li>						
+					</ul>										
+				</div>
+				<div class="collapse" id="collapseBatterie">
+					Nous avons opté pour une batterie format "bidon d'eau" aux dimensions réduites (H = 280 mm et diamètre = 80 mm) <br>
+					Pour une utilisation régulière de votre VAE de ville sur de courtes distances, nous avons privilégié le poids et l'esthétique à la capacité. La batterie :
+					<ul>
+						<li>pèse 1,4 kg (~1,5 kg de moins qu'une batterie standard de 468 Wh)</li>
+						<li>a une capacité de 250 Wh</li>																		
+					</ul>
+					Les gains de poids cumulés permettent de garder une bicyclette maniable et offrant une grande cyclabilité.
+				</div>
+
+				<div class="d-grid gap-2 d-flex justify-content-md-end">						  	
+			  		<!-- <a class="btn btn-primary" onclick="batteriePlus2()" role="button">En savoir plus</a> -->
+		  		  	<a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseBatterie" role="button" aria-expanded="false" aria-controls="collapseBatterie">
+    				En savoir plus
+  					</a> 
+  					<div class="mx-auto"><a href="#composantsUtilises"><i class="bi bi-arrow-up"></i></a></div>	
+				</div>
+				
+			 </div>
+		</div>
+		<div class="row backDegra"> <br><br></div>
+
+		<!-- Cadre et fourche -->
+		<div id="CADRE" class="row">
+			 <div class="col-lg-6 col-12 d-flex justify-content-center pt-5">
+			 	<img src="./Images/Cadre et fourche c 1.jpg" style="width:unset;">
+			 </div>
+			 <div class="col-lg-6 col-12 d-none d-lg-block">
+			 	<div id="titre" class="row fs-2">Cadre & fourche</div>
+			 	<div id="textCadre" class="container description">					
+					<ul>
+						<li>Confortable</li>
+						<li>Robuste</li>
+						<li>Elégant</li>
+					</ul>
+					<div class="d-grid gap-2 d-md-flex justify-content-md-end">	
+						<div class="mx-auto"><a href="#composantsUtilises"><i class="bi bi-arrow-up"></i></a></div> 					  	
+				  		<a class="btn btn-primary" onclick="cadrePlus()" role="button">En savoir plus</a> 
+				  		
+					</div>					
+				</div>
+				<!-- <div class="text-center"><a href="#composantsUtilises"><i class="bi bi-arrow-up"></i></a></div> -->
+			 </div>
+			 <div class="col-lg-6 col-12 d-block d-lg-none">
+			 	<div id="titre" class="row fs-2">Cadre & fourche</div>
+			 	<div id="textCadre" class="container">					
+					<ul>
+						<li>Confortable</li>
+						<li>Robuste</li>
+						<li>Elégant</li>
+					</ul>										
+				</div>
+				<div class="collapse" id="collapseCadre">
+					
+						Le cadre et la fourche définissent l'usage possible (route, chemin, ville) et le style. Ils se caractérisent par leur géométrie et leur matériau. <br><br>						 						    
+					    Les vélos de ville fabriqués en France dans les années 60 à 80
+					<ul>	  
+						<li>offrent un grand confort par leur géométrie et élasticité importante</li>
+						<li>sont très robuste : l'acier marque peu en cas de choc</li>				  
+					    <li>permettent des sections fines et des soudures très discrètes qui confèrent à la bicyclette toute son élégance.</li>						
+					</ul>					
+				</div>
+				<div class="d-grid gap-2 d-flex justify-content-md-end">						  	
+			  		<!-- <a class="btn btn-primary" onclick="cadrePlus()" role="button">En savoir plus</a> -->
+			  		<a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseCadre" role="button" aria-expanded="false" aria-controls="collapseCadre">
+    				En savoir plus
+  					</a> 
+  					<div class="mx-auto"><a href="#composantsUtilises"><i class="bi bi-arrow-up"></i></a></div>
+				</div>
+				
+			 </div>
+		</div>
+		<div class="row backDegra"> <br><br></div>
+
+		<!-- Sellerie -->
+		<div id="SELLERIE" class="row">			 
+			 <div class="col-lg-6 col-12 d-none d-lg-block">			 	
+				 	<div id="titre" class="row fs-2 justify-content-end">Sellerie</div>
+				 	<div id="textSellerie" class="container description">
+					 	La sellerie inclut la selle, la sacoche de selle, les poignées, les sangles… <br><br>
+					 	Le choix s'opère entre			 						
+						<ul>
+							<li>Sellerie originale en vinyle : économique et immédiatement confortable</li>
+							<li>Sellerie en cuir : pour renforcer le caractère vintage du vélo</li>							
+						</ul>
+						<div class="d-grid gap-2 d-md-flex justify-content-md-end">	
+							<div class="mx-auto"><a href="#composantsUtilises"><i class="bi bi-arrow-up"></i></a></div>					  	
+					  		<a class="btn btn-primary" onclick="selleriePlus()" role="button">En savoir plus</a> 
+					  		 
+						</div>					
+					</div>
+					<!-- <div class="text-center"><a href="#composantsUtilises"><i class="bi bi-arrow-up"></i></a></div> -->
+			 </div>
+			 <div class="col-lg-6 col-12 d-flex justify-content-center pt-5">
+			 	<img src="./Images/Sellerie 1 1.jpg" style="width:unset;">
+			 </div>
+			 <div class="col-lg-6 col-12 d-block d-lg-none">			 	
+				 	<div id="titre" class="row fs-2 justify-content-end">Sellerie</div>
+				 	<div id="textSellerie2" class="container">
+					 	La sellerie inclut la selle, la sacoche de selle, les poignées, les sangles… <br><br>
+					 	Le choix s'opère entre			 						
+						<ul>
+							<li>Sellerie originale en vinyle : économique et immédiatement confortable</li>
+							<li>Sellerie en cuir : pour renforcer le caractère vintage du vélo</li>							
+						</ul>											
+					</div>
+					<div class="collapse" id="collapseSellerie">
+						<div>
+						  Le choix de la sellerie est un équilibre entre confort, style et coût. <br><br>
+						  Une sellerie vinyle d'origine (selle rembourrée, poignées plastique) offre un confort immédiat et conserve au vélo son caractère d'origine. <br><br>
+						  Une sellerie cuir, plus coûteuse, plus dure au départ, doit être "faite à la morphologie du cycliste" mais renforce le côté rétro et peut être harmonisée avec divers éléments (selle, sacoche de selle, guidoline…)
+						</div>
+					</div>
+
+					<div class="d-grid gap-2 d-flex justify-content-md-end">						  	
+					  		<!-- <a class="btn btn-primary" onclick="selleriePlus2()" role="button">En savoir plus</a> -->
+				  		<a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseSellerie" role="button" aria-expanded="false" aria-controls="collapseSellerie">
+    					En savoir plus
+  						</a> 
+  						<div class="mx-auto"><a href="#composantsUtilises"><i class="bi bi-arrow-up"></i></a></div>
+					</div>
+					
+		 	</div>
+		</div>
+		<div class="row backDegra"> <br><br></div>
+
+		<!-- Pédalier -->
+		<div id="PEPE" class="row">
+			 <div class="col-lg-6 col-12 d-flex justify-content-center pt-5">
+			 	<img src="./Images/Pédalier 1 1.jpg" style="width:unset;">
+			 </div>
+			 <div class="col-lg-6 col-12 d-none d-lg-block">
+			 	<div id="titre" class="row fs-2">Pédalier</div>
+			 	<div id="textPedalier" class="container description" >	
+			 		Tous nos pédaliers sont composés d'un plateau unique <br><br>
+			 		Au choix :			
+					<ul>						
+						<li>Pédalier d'origine : léger et élégant avec ses manivelles fines</li>
+						<li>Pédalier performance : offrant un rendement supérieur de 10%</li>
+					</ul>
+					<div class="d-grid gap-2 d-md-flex justify-content-md-end">	
+						<div class="mx-auto"><a href="#composantsUtilises"><i class="bi bi-arrow-up"></i></a></div> 					  	
+				  		<a class="btn btn-primary" onclick="pedalierPlus()" role="button">En savoir plus</a> 
+				  		
+					</div>					
+				</div>
+				<!-- <div class="text-center"><a href="#composantsUtilises"><i class="bi bi-arrow-up"></i></a></div> -->
+			 </div>
+			 <div class="col-lg-6 col-12 d-block d-lg-none">
+			 	<div id="titre" class="row fs-2">Pédalier</div>
+			 	<div id="textPedalier" class="container" >					
+					Tous nos pédaliers sont composés d'un plateau unique <br><br>
+			 		Au choix :			
+					<ul>						
+						<li>Pédalier d'origine : léger et élégant avec ses manivelles fines</li>
+						<li>Pédalier performance : offrant un rendement supérieur de 10%</li>
+					</ul>
+										
+				</div>
+				<div class="collapse" id="collapsePedalier">
+					Nous avons opté pour des pédaliers à plateau unique qui s'appairent avec le moyeu à vitesses intégrées et suppriment la flexion de la chaîne.
+					<ul>
+						<li>Le pédalier d'origine est léger et élégant</li>
+						<li>Pédalier performance permet une meilleure transmission de votre effort à la roue. Il décale les manivelles et augmente le rendement de 10%. C'est une innovation française, fabriquée en France </li>				            						
+					</ul>
+					Cette amélioration mécanique rejoint notre vision de l'assistance électrique "légère" qui vient vous apporter l'aide juste nécessaire.
+				</div>
+				<div class="d-grid gap-2 d-flex justify-content-md-end">						  	
+			  		<!-- <a class="btn btn-primary" onclick="pedalierPlus()" role="button">En savoir plus</a> --> 
+			  		<a class="btn btn-primary" data-bs-toggle="collapse" href="#collapsePedalier" role="button" aria-expanded="false" aria-controls="collapsePedalier">
+    					En savoir plus
+					</a>
+					<div class="mx-auto"><a href="#composantsUtilises"><i class="bi bi-arrow-up"></i></a></div>
+				</div>
+				
+			 </div>
+		</div>
+		<div class="row backDegra"> <br><br></div>
+
+		<!-- Roues et pneus -->
+		<div id="ROUES" class="row">			 
+			 <div class="col-lg-6 col-12 d-none d-lg-block">
+			 	<div id="titre" class="row fs-2 justify-content-end">Roues & pneus</div>
+			 	<div id="textRoues" class="container description">			 						
+					<ul>
+						<li>Robustesse</li>
+						<li>Elégance</li>
+						<li>Fabrication française ou Européenne</li>
+						<li>Performance au freinage (aluminium)</li>										
+					</ul>
+					<div class="d-grid gap-2 d-md-flex justify-content-md-end">						  	
+				  		<a class="btn btn-primary" onclick="rouePlus()" role="button">En savoir plus</a> 
+				  		<div class="mx-auto"><a href="#composantsUtilises"><i class="bi bi-arrow-up"></i></a></div> 
+					</div>					
+				</div>
+				<!-- <div class="text-center"><a href="#composantsUtilises"><i class="bi bi-arrow-up"></i></a></div> -->
+			 </div>
+			 <div class="col-lg-6 col-12 d-flex justify-content-center pt-5">
+			 	<img src="./Images/Roue et pneu 1.jpg">
+			 </div>
+			 <div class="col-lg-6 col-12 d-block d-lg-none">
+			 	<div id="titre" class="row fs-2 justify-content-end">Roues & pneus</div>
+			 	<div id="textRoues2" class="container">
+				 	<ul>
+						<li>Robustesse</li>
+						<li>Elégance</li>
+						<li>Fabrication française ou Européenne</li>
+						<li>Performance au freinage (aluminium)</li>										
+					</ul>										
+				</div>
+				<div class="collapse" id="collapseRoue">
+					Nous avons choisi d'assembler les roues en France (rayonnage). Cela permet
+					<ul>
+						<li>d'utiliser des composants fabriqués en France (jantes et rayons)</li>
+						<li>d'harmoniser les deux roues avant et arrière</li>
+						<li>de choisir l'esthétique qui vous plait chromés ou noir satin</li>
+						<li>de limiter le volume des composants transportés sur de longues distances</li>
+					</ul>
+				</div>
+				<div class="d-grid gap-2 d-flex justify-content-md-end">						  	
+			  		<!-- <a class="btn btn-primary" onclick="rouePlus2()" role="button">En savoir plus</a>  -->
+			  		<a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseRoue" role="button" aria-expanded="false" aria-controls="collapseRoue">
+    					En savoir plus
+					</a>
+					<div class="mx-auto"><a href="#composantsUtilises"><i class="bi bi-arrow-up"></i></a></div>
+				</div>
+				
+			 </div>
+		</div>
+		<div class="row backDegra"> <br><br></div>
+		
+		<!-- Equipements accessoires -->
+		<div id="EQUIPE" class="row">
+			 <div class="col-lg-6 col-12 d-flex justify-content-center pt-5">
+			 	<img src="./Images/Accessoire 1.jpg" style="width:unset;">
+			 </div>
+			 <div class="col-lg-6 col-12 d-none d-lg-block">
+			 	<div id="titre" class="row fs-2">Equipements & accessoires</div>
+			 	<div id="textEquipement" class="container description" >					
+					<ul>
+						<li>Equipements électriques discrets et adaptés à l'usage en ville</li>
+						<li>Accessoires élégants (sacoches, phare bombé…)</li>
+					</ul>
+					<div class="d-grid gap-2 d-md-flex justify-content-md-end">	
+						<div class="mx-auto"><a href="#composantsUtilises"><i class="bi bi-arrow-up"></i></a></div>					  	
+				  		<a class="btn btn-primary" onclick="equipementPlus()" role="button">En savoir plus</a> 
+				  		 
+					</div>					
+				</div>
+				<!-- <div class="text-center"><a href="#composantsUtilises"><i class="bi bi-arrow-up"></i></a></div> -->
+			 </div>
+			 <div class="col-lg-6 col-12 d-block d-lg-none">
+			 	<div id="titre" class="row fs-2">Equipements & accessoires</div>
+			 	<div id="textEquipement" class="container" >					
+					<ul>
+						<li>Equipements électriques discrets et adaptés à l'usage en ville</li>
+						<li>Accessoires élégants (sacoches, phare bombé…)</li>
+					</ul>										
+				</div>
+				<div class="collapse" id="collapseEquipement">
+					Les équipements suivants complètent le vélo
+					<ul>
+						<li>afficheur LCD monochrome 5 niveaux d'assistance</li>
+						<li>capteur de mouvement au pédalier</li>
+						<li>phares à LED au look vintage</li>						
+					</ul>
+					Vous pouvez ajouter des accessoires sur votre vélo électrique vintage : sacoches de transport, rétroviseurs…
+				</div>
+				<div class="d-grid gap-2 d-flex justify-content-md-end">						  	
+			  		<!-- <a class="btn btn-primary" onclick="equipementPlus()" role="button">En savoir plus</a>  -->
+			  		<a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseEquipement" role="button" aria-expanded="false" aria-controls="collapseEquipement">
+    					En savoir plus
+					</a>
+					<div class="mx-auto"><a href="#composantsUtilises"><i class="bi bi-arrow-up"></i></a></div>
+				</div>
+				
+			 </div>
+		</div>
+		<div class="row backDegra"> <br><br><br></div>
+
+		
+	</main>
+		
+	
+	<a href="#"><div id="bandeau_enquête" class="d-flex justify-content-center">Participez au projet : en répondant à notre enquête pour mieux cibler vos attentes</div></a>
+
+	<footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5">	
+	    <div class="col mb-3">
+	    	<h5 class="ms-5 text-white">Accueil</h5>
+		      <ul class="nav flex-column">
+		        <li class="nav-item ms-4 mb-2"><a href="#" class="nav-link p-0 text-white">Le VAE vintage</a></li>
+		        <li class="nav-item ms-4 mb-2"><a href="#" class="nav-link p-0 text-white">Répondre à l'enquête</a></li>
+		        <!-- <li class="nav-item ms-4 mb-2"><a href="#" class="nav-link p-0 text-white">Pricing</a></li>
+		        <li class="nav-item ms-4 mb-2"><a href="#" class="nav-link p-0 text-white">FAQs</a></li>
+		        <li class="nav-item ms-4 mb-2"><a href="#" class="nav-link p-0 text-white">About</a></li> -->
+		      </ul>
+	      <!-- <a href="/" class="d-flex align-items-center mb-3 link-dark text-decoration-none">
+	        <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
+	      </a> -->
+	      <!-- <p class="text-muted">© 2022</p> -->
+	    </div>
+
+	    <div class="col mb-3">
+	    	<h5 class="ms-5 text-white">A propos</h5>
+		      <ul class="nav flex-column">
+		        <li class="nav-item ms-4 mb-2"><a href="Vision.html" class="nav-link p-0 text-white">Qui sommes-nous?</a></li>
+		        <li class="nav-item ms-4 mb-2"><a href="Vision.html#notreOffre" class="nav-link p-0 text-white">Notre proposition</a></li>
+		        <li class="nav-item ms-4 mb-2"><a href="Vision.html#notreApproche" class="nav-link p-0 text-white">Notre approche</a></li>
+		        <ul class="nav flex-column">
+			        <li class="nav-item ms-5 mb-2"><a href="#" class="nav-link p-0 text-white">Environnement</a></li>
+			        <li class="nav-item ms-5 mb-2"><a href="#" class="nav-link p-0 text-white">Emploi</a></li>
+			        <li class="nav-item ms-5 mb-2"><a href="#" class="nav-link p-0 text-white">Sourcing</a></li>
+			    </ul>
+		      </ul>
+
+	    </div>
+
+	    <div class="col mb-3">
+	      <h5 class="ms-5 text-white">Nos produits</h5>
+	      <ul class="nav flex-column">
+	        <li class="nav-item ms-4 mb-2"><a href="produit.html#galerie" class="nav-link p-0 text-white">Galerie Photos</a></li>
+	        <li class="nav-item ms-4 mb-2"><a href="produit.html#composantsUtilises" class="nav-link p-0 text-white">Composants utilisés</a></li>
+	        <!-- <li class="nav-item ms-4 mb-2"><a href="#" class="nav-link p-0 text-white">Pricing</a></li>
+	        <li class="nav-item ms-4 mb-2"><a href="#" class="nav-link p-0 text-white">FAQs</a></li>
+	        <li class="nav-item ms-4 mb-2"><a href="#" class="nav-link p-0 text-white">About</a></li> -->
+	      </ul>
+	    </div>
+
+	    <div class="col mb-3">
+	      <h5 class="ms-5 text-white">Votre projet</h5>
+	      <ul class="nav flex-column">
+	        <li class="nav-item ms-4 mb-2"><a href="#" class="nav-link p-0 text-white">La création de votre vélo</a></li>
+	        <li class="nav-item ms-5 mb-2"><a href="#" class="nav-link p-0 text-white">Transformation</a></li>
+	        <li class="nav-item ms-5 mb-2"><a href="#" class="nav-link p-0 text-white">Fourniture du vélo d'origine</a></li>
+	        <li class="nav-item ms-5 mb-2"><a href="#" class="nav-link p-0 text-white">Personnalisation</a></li>
+	        <li class="nav-item ms-4 mb-2"><a href="#" class="nav-link p-0 text-white">Configurateur</a></li>
+	      </ul>
+	    </div>
+
+	    <div class="col mb-3">
+	      <h5 class="ms-5 text-white"><br></h5>
+	      <ul class="nav flex-column">
+	        <li class="nav-item ms-4 mb-2"><!-- <a href="#" class="nav-link p-0 text-white"> --><br></li>
+	        <li class="nav-item ms-4 mb-2"><!-- <a href="#" class="nav-link p-0 text-white"> --><br></li>
+	        <li class="nav-item ms-4 mb-2"><!-- <a href="#" class="nav-link p-0 text-white"> --><br></li>
+	        <li class="nav-item ms-4 mb-2"><!-- <a href="#" class="nav-link p-0 text-white"> --><br></li>
+	        <li class="nav-item ms-4 mb-2"><!-- <a href="#" class="nav-link p-0 text-white"> --><br></li>
+	        <li class="nav-item ms-4 mb-2"><!-- <a href="#" class="nav-link p-0 text-white"> --><br></li>
+	        <li class="nav-item ms-4 mb-2"><!-- <a href="#" class="nav-link p-0 text-white"> --><br></li>
+	        <li class="nav-item ms-4 mb-2"><a href="#" class="nav-link p-0 text-white">Mentions Légales</a></li>
+	      </ul>
+	    </div>	    
+  	</footer>
+
+
+
+
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
+	<script src="./script/script composants.js" type="text/javascript"></script>
+
+	
+</body>
+</html>
