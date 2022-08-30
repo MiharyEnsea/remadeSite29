@@ -96,6 +96,8 @@ a{
 
 img	{
 	width: 100%;
+	max-width: 100%;
+	height: auto;
     position: relative;
     
     padding-top: 0px;
@@ -299,20 +301,20 @@ html{
 
 .galerie{
 	display: flex;
-	justify-self: center;
+	justify-content: center;
 	flex-wrap: wrap;
-	widows: 80%;
+	width: 80%;
 	max-width: 1480px;
 	margin: 30px auto 0;
-	/*background: crimson;*/
+	background: crimson;
 }
 
 .itemPaysage{
-	width: 720px;
-	height: 500px;
+	/*width: 720px;
+	height: 500px;*/
 	margin: 10px;
 	overflow: hidden;
-	flex-shrink: 0;
+	/*flex-shrink: 0;*/
 }
 
 .itemPaysage img{
@@ -321,12 +323,12 @@ html{
 }
 
 .itemPortraitGauche{
-	width: 360px;
-	height: 500px;
+	/*width: 360px;
+	height: 500px;*/
 	margin: 10px;
 	margin-right: 0;
 	overflow: hidden;
-	flex-shrink: 0;
+	/*flex-shrink: 0;*/
 }
 
 .itemPortraitGauche img{
@@ -335,17 +337,28 @@ html{
 }
 
 .itemPortraitDroite{
-	width: 360px;
-	height: 500px;
+	/*width: 360px;
+	height: 500px;*/
 	margin: 10px;
 	margin-left: 0;
 	overflow: hidden;
-	flex-shrink: 0;
+	/*flex-shrink: 0;*/
 }
 
 .itemPortraitDroite img{
 	width: 100%;
 	height: auto;
+}
+
+@media screen and (max-width: 940px){
+	.itemPortraitGauche{
+		margin-right: unset;
+		margin-left: unset;
+		}
+	.itemPortraitDroite{
+		margin-right: unset;
+		margin-left: unset;
+	}
 }
 
 /* Footer */
