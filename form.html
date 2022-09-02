@@ -14,7 +14,7 @@
 	
 		<nav class="navbar navbar-expand-lg navbar-dark sticky-top" style="background-color: #000e2a;">
 		  <div class="container-fluid">
-		    <a class="navbar-brand" href="index.html"><img src="./Images/logo.JPG"></a>
+		    <a class="navbar-brand" href="index.html"><img src="./Images/logo.png"></a>
 		    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 		      <span class="navbar-toggler-icon"></span>
 		    </button>
@@ -22,28 +22,26 @@
 		      <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
 		      	 <li class="nav-item dropdown">
 		          <a class="nav-link disabled d-none d-lg-block dropdown-toggle" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-		            Votre projet
+		            Votre vélo
 		          </a>
 		          <a class="nav-link d-block d-lg-none dropdown-toggle" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-		            Votre projet
+		            Votre vélo
 		          </a>
 		          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-		            <li><a class="dropdown-item" href="projet.html">La création de votre vélo</a></li>
-		            <li><a class="dropdown-item" href="#">Configurateur</a></li>
-		            <li><a class="dropdown-item" href="#">Contribuer</a></li>	            
+		            <li><a class="dropdown-item" href="projet.html#IdentiteDeNosRea">Son identité</a></li>
+		            <li><a class="dropdown-item" href="projet.html#infographieProjet">Sa création</a></li>		                        
 		          </ul>
 		        </li>		        
 		        <li class="nav-item dropdown">
 		          <a class="nav-link disabled d-none d-lg-block dropdown-toggle" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-		            Nos produits
+		            Nos réalisations
 		          </a>
 		          <a class="nav-link d-block d-lg-none dropdown-toggle" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-		            Nos produits
+		            Nos réalisations
 		          </a>
-		          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-		          	<li><a class="dropdown-item" href="produit.html#IdentiteDeNosRea">Identité de nos créations</a></li>
-		            <li><a class="dropdown-item" href="produit.html#galerie">Galerie photo</a></li>
-		            <li><a class="dropdown-item" href="produit.html#composantsUtilises">Composants utilisés</a></li>
+		          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">		          	
+		            <li><a class="dropdown-item" href="produit.html#galerie">Galerie photos</a></li>
+		            <li><a class="dropdown-item" href="produit.html#composantsUtilises">Composants</a></li>
 		          </ul>
 		        </li>
 		       	<li class="nav-item dropdown">
@@ -54,14 +52,15 @@
 		            A propos
 		          </a>
 		          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-		            <li><a class="dropdown-item" href="Vision.html">Qui sommes-nous?</a></li>
-		            <li><a class="dropdown-item" href="Vision.html#notreOffre">Notre offre de service</a></li>
+		            <li><a class="dropdown-item" href="Vision.html">Notre équipe</a></li>
+		            <li><a class="dropdown-item" href="Vision.html#notreOffre">Notre offre</a></li>
 		            <!-- <li><hr class="dropdown-divider"></li> -->
 		            <li><a class="dropdown-item" href="Vision.html#notreApproche">Notre approche</a></li>
 		          </ul>
 		        </li>
 		      </ul>
 		      <ul class="navbar-nav sm-icons">
+		      	<li><a class="nav-link" href="#"><i class="bi bi-instagram"></i></a></li>
 		      	<li><a class="nav-link" href="#"><i class="bi bi-linkedin"></i></a></li>
 		      	<li><a class="nav-link" href="#"><i class="bi bi-facebook"></i></a></li>
 		      	<li class="nav-item">
@@ -74,7 +73,7 @@
 
 		<div class="container">
 			<h1>Contactez-nous !</h1>
-			<form action="" class="row g-3">
+			<form action="" class="row g-3" action="https://formsubmit.co/contact@atelier-bae.fr" method="POST">
 				<div class="col-md-6">
 					<label for="nom" class="form-label">Nom</label>
 					<input type="text" class="form-control" id="nom" required>
@@ -92,8 +91,11 @@
 					<input type="text" class="form-control" id="telephone" placeholder="07.xx.xx.xx.xx">
 				</div>
 				<div class="col-12">
-					<label for="commentaires" class="form-label">Avis et commentaires</label>
-					<input type="text" class="form-control" id="commentaires" required>
+					<label for="commentaires" class="form-label">Avis et commentaires</label>					
+					<textarea id="commentaires" class="form-control" rows="3" required></textarea>
+				</div>
+				<div class="col-md-12">
+					<button type="submit" class="btn btn-primary">Envoyez</button>
 				</div>
 			</form>
 
@@ -108,14 +110,14 @@
 		
 		
 	
-		<a href="#"><div id="bandeau_enquête" class="d-flex justify-content-center">Participez au projet : en répondant à notre enquête pour mieux cibler vos attentes</div></a>
+		<a href="https://forms.gle/zjgDzR4yadyHUYKw6" target="_blank"><div id="bandeau_enquête" class="d-flex justify-content-center">Participez au projet : en répondant à notre enquête pour mieux cibler vos attentes</div></a>
 
 	<footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5">	
 	    <div class="col mb-3">
-	    	<h5 class="ms-5 text-white">Accueil</h5>
+	    	<a href="index.html" style="font-style: unset;"><h5 class="ms-5 text-white">Accueil</h5></a>
 		      <ul class="nav flex-column">
-		        <li class="nav-item ms-4 mb-2"><a href="#" class="nav-link p-0 text-white">Le VAE vintage</a></li>
-		        <li class="nav-item ms-4 mb-2"><a href="#" class="nav-link p-0 text-white">Répondre à l'enquête</a></li>
+		        <!-- <li class="nav-item ms-4 mb-2"><a href="#" class="nav-link p-0 text-white">Le VAE vintage</a></li>
+		        <li class="nav-item ms-4 mb-2"><a href="#" class="nav-link p-0 text-white">Répondre à l'enquête</a></li> -->
 		        <!-- <li class="nav-item ms-4 mb-2"><a href="#" class="nav-link p-0 text-white">Pricing</a></li>
 		        <li class="nav-item ms-4 mb-2"><a href="#" class="nav-link p-0 text-white">FAQs</a></li>
 		        <li class="nav-item ms-4 mb-2"><a href="#" class="nav-link p-0 text-white">About</a></li> -->
@@ -127,24 +129,23 @@
 	    </div>
 
      	<div class="col mb-3">
-	      <h5 class="ms-5 text-white">Votre projet</h5>
+	      <h5 class="ms-5 text-white">Votre vélo</h5>
 	      <ul class="nav flex-column">
-	        <li class="nav-item ms-4 mb-2"><a href="#" class="nav-link p-0 text-white">La création de votre vélo</a></li>
-	        <li class="nav-item ms-5 mb-2"><a href="#" class="nav-link p-0 text-white">Transformation</a></li>
+	        <li class="nav-item ms-4 mb-2"><a href="projet.html#IdentiteDeNosRea" class="nav-link p-0 text-white">Son identité</a></li>
+	        <!-- <li class="nav-item ms-5 mb-2"><a href="#" class="nav-link p-0 text-white">Transformation</a></li>
 	        <li class="nav-item ms-5 mb-2"><a href="#" class="nav-link p-0 text-white">Fourniture du vélo d'origine</a></li>
-	        <li class="nav-item ms-5 mb-2"><a href="#" class="nav-link p-0 text-white">Personnalisation</a></li>
-	        <li class="nav-item ms-4 mb-2"><a href="#" class="nav-link p-0 text-white">Configurateur</a></li>
+	        <li class="nav-item ms-5 mb-2"><a href="#" class="nav-link p-0 text-white">Personnalisation</a></li> -->
+	        <li class="nav-item ms-4 mb-2"><a href="projet.html#infographieProjet" class="nav-link p-0 text-white">Sa création</a></li>
 	      </ul>
 	    </div>
 
 	    
 
 	    <div class="col mb-3">
-	      <h5 class="ms-5 text-white">Nos produits</h5>
-	      <ul class="nav flex-column">
-	      	<li class="nav-item ms-4 mb-2"><a href="produit.html#IdentiteDeNosRea" class="nav-link p-0 text-white">Identité de nos produits</a></li>
+	      <h5 class="ms-5 text-white">Nos réalisations</h5>
+	      <ul class="nav flex-column">	      	
 	        <li class="nav-item ms-4 mb-2"><a href="produit.html#galerie" class="nav-link p-0 text-white">Galerie Photos</a></li>
-	        <li class="nav-item ms-4 mb-2"><a href="produit.html#composantsUtilises" class="nav-link p-0 text-white">Composants utilisés</a></li>	        
+	        <li class="nav-item ms-4 mb-2"><a href="produit.html#composantsUtilises" class="nav-link p-0 text-white">Composants</a></li>	        
 	        <!-- <li class="nav-item ms-4 mb-2"><a href="#" class="nav-link p-0 text-white">FAQs</a></li>
 	        <li class="nav-item ms-4 mb-2"><a href="#" class="nav-link p-0 text-white">About</a></li> -->
 	      </ul>
@@ -153,14 +154,14 @@
 	    <div class="col mb-3">
 	    	<h5 class="ms-5 text-white">A propos</h5>
 		      <ul class="nav flex-column">
-		        <li class="nav-item ms-4 mb-2"><a href="Vision.html" class="nav-link p-0 text-white">Qui sommes-nous?</a></li>
-		        <li class="nav-item ms-4 mb-2"><a href="Vision.html#notreOffre" class="nav-link p-0 text-white">Notre proposition</a></li>
+		        <li class="nav-item ms-4 mb-2"><a href="Vision.html" class="nav-link p-0 text-white">Notre équipe</a></li>
+		        <li class="nav-item ms-4 mb-2"><a href="Vision.html#notreOffre" class="nav-link p-0 text-white">Notre offre</a></li>
 		        <li class="nav-item ms-4 mb-2"><a href="Vision.html#notreApproche" class="nav-link p-0 text-white">Notre approche</a></li>
-		        <ul class="nav flex-column">
+		        <!-- <ul class="nav flex-column">
 			        <li class="nav-item ms-5 mb-2"><a href="Vision.html#sectionEnvironnement" class="nav-link p-0 text-white">Environnement</a></li>
 			        <li class="nav-item ms-5 mb-2"><a href="Vision.html#sectionEmploi" class="nav-link p-0 text-white">Emploi</a></li>
 			        <li class="nav-item ms-5 mb-2"><a href="Vision.html#sectionSourcing" class="nav-link p-0 text-white">Sourcing</a></li>
-			    </ul>
+			    </ul> -->
 		      </ul>
 
 	    </div>
@@ -173,10 +174,10 @@
 	        <li class="nav-item ms-4 mb-2"><!-- <a href="#" class="nav-link p-0 text-white"> --><br></li>
 	        <li class="nav-item ms-4 mb-2"><!-- <a href="#" class="nav-link p-0 text-white"> --><br></li>
 	        <li class="nav-item ms-4 mb-2"><!-- <a href="#" class="nav-link p-0 text-white"> --><br></li>
-	        <li class="nav-item ms-4 mb-2"><!-- <a href="#" class="nav-link p-0 text-white"> --><br></li>
-	        <li class="nav-item ms-4 mb-2"><!-- <a href="#" class="nav-link p-0 text-white"> --><br></li>
-	        <li class="nav-item ms-4 mb-2"><!-- <a href="#" class="nav-link p-0 text-white"> --><br></li>
-	        <li class="nav-item ms-4 mb-2"><!-- <a href="#" class="nav-link p-0 text-white"> --><br></li>
+	        <!-- <li class="nav-item ms-4 mb-2"><a href="#" class="nav-link p-0 text-white"><br></li> -->
+	        <!-- <li class="nav-item ms-4 mb-2"><a href="#" class="nav-link p-0 text-white"><br></li>
+	        <li class="nav-item ms-4 mb-2"><a href="#" class="nav-link p-0 text-white"><br></li>
+	        <li class="nav-item ms-4 mb-2"><a href="#" class="nav-link p-0 text-white"><br></li> -->
 	        <li class="nav-item ms-4 mb-2"><a href="#" class="nav-link p-0 text-white">Mentions Légales</a></li>
 	      </ul>
 	    </div>	    
